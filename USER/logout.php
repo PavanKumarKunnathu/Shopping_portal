@@ -15,6 +15,6 @@ unset($_SESSION["username"]);
 
 unset($_SESSION["useremail"]);
 
-header("location:../user_registrations/login.php");
+header("location:../index.php");
 
 ?>

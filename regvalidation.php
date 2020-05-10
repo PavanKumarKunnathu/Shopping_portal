@@ -105,7 +105,7 @@ if(isset($_POST['adminlogin'])){
   $admin_username=$_POST['adminusername'];
   $admin_password=$_POST['adminpassword'];
   if(($admin_username=="admin")  && ($admin_password=="admin")){
-       header("location:../ADMIN/categories.php");
+       header("location:ADMIN/categories.php");
    }
    else{
     echo "<div class='alert alert-danger'>incor rect username  and password<button type='button' class='close' data-dismiss='alert'>close&times;</div>";
@@ -123,7 +123,7 @@ if(isset($_POST['userlogin'])){
 	$_SESSION['userid']=$lrow['u_id'];
 	$_SESSION['useremail']=$lrow['email'];
 	$_SESSION["username"]=$lrow["username"];
-	header("location:../USER/homepage.php");
+	header("location:USER/homepage.php");
    }
    else{
     echo "<div class='alert alert-warning'>incorrect username  and password<button type='button' class='close' data-dismiss='alert'>close&times;</div>";

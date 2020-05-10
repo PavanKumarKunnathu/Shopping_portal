@@ -6,12 +6,12 @@
    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
-    <script src="../bootstrap/js/jQuery.js"></script>
-    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jQuery.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="logstyle.css">
@@ -74,7 +74,7 @@
 						
 						
 
-						<center><p class="sign"><font color="white"> Back To Login?</font> <a href="login.php"> Login!</a></p></center>
+						<center><p class="sign"><font color="white"> Back To Login?</font> <a href="index.php"> Login!</a></p></center>
     
                     </form>
 					
