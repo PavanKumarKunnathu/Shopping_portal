@@ -96,7 +96,6 @@
   <script  src="logscript.js"></script>
 
 </body>
-
 </html>
 
 
